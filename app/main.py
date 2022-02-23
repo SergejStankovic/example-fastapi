@@ -29,4 +29,4 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
-    return {"message": "Web app initialized successfully"}
+    return {"message": "Web app initialized successfully!"}
